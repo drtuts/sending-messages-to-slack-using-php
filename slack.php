@@ -9,7 +9,7 @@ error_reporting( E_ALL );
 
 $json_string = json_encode($data);
 
-$slack_webhook_url = 'https://hooks.slack.com/services/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';
+$slack_webhook_url = '<< SPECIFY WEBHOOK URL >>';
 
 $slack_call = curl_init();
 curl_setopt($slack_call, CURLOPT_CUSTOMREQUEST, "POST");
